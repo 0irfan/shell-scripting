@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#This is one line commit
+#This is one line comment
 
 <<comment
 This 
 is 
 Multiline
-commit
+comments
 comment
 
