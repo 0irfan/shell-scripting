@@ -22,6 +22,12 @@ echo "${first_array[*]:1}"
 
  echo "${first_array[*]:1:2}"
 
+# update an array
+ 
+first_array+=( 50 100 )
+
+echo "${first_array[*]}"
+
 
 
 
