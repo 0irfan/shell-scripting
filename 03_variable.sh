@@ -1,6 +1,5 @@
 #!/bin/bash
-
-# This is constant variable
+#variable initialization
 
  name="Abdul qadir"
 
@@ -8,9 +7,11 @@
 
   # this is dynamic variable
 
-   host=$(hostname)
-
-    echo "This is My hostname: $host"
-
+  host=$(hostname)
+   echo "This is My hostname: $host"
+ # constant variable
+ readonly marks=10
+  echo "$marks"
+  
    
 
